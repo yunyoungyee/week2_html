@@ -80,8 +80,8 @@
 .movie_chart > div > div:last-child {margin-right: 0;}
 .movie_chart > div > div .poster {position: relative;}
 .movie_chart > div > div .poster img {display: block;}
-.movie_chart > div > div .poster .rank {position: absolute; top: 17px; left: 0; width: 50px; height: 50px; line-height: 50px; background-color: #38116a; text-align: center;}
-.movie_chart > div > div .poster .rank strong {color: #fff;}
+.movie_chart > div > div .poster .rank {position: absolute; top: 17px; left: 0; width: 50px; height: 50px; line-height: 50px; background-color: #38116a; text-align: center;box-shadow: 3px 3px 8px rgba(0,0,0,0.5);} /* 박스 그림자 추가함*/
+.movie_chart > div > div .poster .rank strong {color: #fff; font-size: 20px; text-shadow: 1px 1px 3px rgba(0,0,0,0.5)} /*텍스트 쉐도우랑 크기 추가 함*/
 .movie_chart > div > div .poster .mx {position: absolute; top: 17px; right: 17px;}
 .movie_chart > div > div .poster .mx span {width: 103px; height: 25px; display: block;}
 .movie_chart > div > div .poster .mx .m {background-position: 0 -75px;}
@@ -91,9 +91,9 @@
 .movie_chart > div > div .infor h3 strong{}
 .movie_chart > div > div .infor h3 span {width: 29px; height: 29px; display: inline-block; margin-top: 9px; vertical-align: -2px;}
 .movie_chart > div > div .infor h3 span.all {background-position: -87px -125px;}
-.movie_chart > div > div .infor h3 span.a12 {background-position: -58px -125px;}
+.movie_chart > div > div .infor h3 span.a12 {background-position: -29px -125px;} /*12세랑 19세랑 로고 위치설정이 잘못되어 있어서 수정필요*/
 .movie_chart > div > div .infor h3 span.a15 {background-position: 0px -125px;}
-.movie_chart > div > div .infor h3 span.a19 {background-position: -29px -125px;}
+.movie_chart > div > div .infor h3 span.a19 {background-position: -58px -125px;} /*12세랑 19세랑 로고 위치설정이 잘못되어 있어서 수정필요*/
 .movie_chart > div > div .infor .infor_btn a {display: inline-block; background: #f2f2f2; font-size: 18px; padding: 15px 30px;}
 
 
